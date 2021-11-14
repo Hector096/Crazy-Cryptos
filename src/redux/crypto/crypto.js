@@ -47,10 +47,10 @@ export const cryptoReducer = (state = initialState, action) => {
   }
 };
 
-export const fetchCryptoData = () => async (dispatch) => {
+export const fetchCryptoData = (id) => async (dispatch) => {
   dispatch(fetchRequest());
   try {
-    const data = await getCryptoFromApi();
+    const data = await getCryptoFromApi(id);
     dispatch(fetchSuccess(data));
   } catch (error) {
     fetchFailure(error);
