@@ -1,14 +1,16 @@
-import { Routes, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
+import Crypto from './Crypto';
 
 function App() {
   return (
     <div className="bg-light">
       <Header />
-      <Routes>
+      <Switch>
         <Route exact path="/" component={Home} />
-      </Routes>
+        <Route exact path="/detail/:crypto" component={Crypto} />
+      </Switch>
     </div>
   );
 }
