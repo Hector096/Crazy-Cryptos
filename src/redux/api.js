@@ -15,7 +15,6 @@ export const getCryptosFromApi = async () => {
 export const getCryptoFromApi = async (id) => {
   try {
     const response = await axios.get(`${baseUrl}/ticker/?id=${id}`);
-    console.log(response.data);
     return response.data;
   } catch (e) {
     throw e.toString();

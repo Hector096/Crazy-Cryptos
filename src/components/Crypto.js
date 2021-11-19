@@ -7,7 +7,7 @@ export default function Crypto({ match }) {
   const { crypto } = match.params;
   const state = useSelector((state) => state.crypto);
   const dispatch = useDispatch();
-  useEffect(() => state.data === null && dispatch(fetchCryptoData(crypto)), [dispatch]);
+  useEffect(() => dispatch(fetchCryptoData(crypto)), [dispatch]);
 
   return (
     <div>
