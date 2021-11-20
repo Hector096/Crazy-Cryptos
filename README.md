@@ -1,6 +1,6 @@
 # Crazy Cryptos
 
->  "Space Travelers' Hub" is a web application for a company that provides commercial and scientific space travel services, We have been working with the real live data from the SpaceX API. The application will allow users to book rockets and join selected space missions. The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section.
+>  "Crazy Crypto is mobile first React SPA which is for crypto lover, who wants to know more about cryto currencies trading inforamtion.
 
 ---
 ## Live Demo
@@ -10,7 +10,8 @@
 
 Application Screenshot                                                                                   |
 :---------------------------------------------------------------------------------------------------:|
-![](./src/assets/Screenshot.png)                                                                     |
+![screenshot](./src/assests/Screenshot.png)  
+![screenshot](./src/assests/Screenshot2.png)                                                                       |
                                                                  |
 
 
@@ -19,6 +20,7 @@ Application Screenshot                                                          
 - ReactJS
 - Redux
 - React-Bootstrap
+- [Coinlore API](https://www.coinlore.com/cryptocurrency-data-api)
 
 ## Getting Started
 
@@ -58,6 +60,7 @@ Feel free to check the [issues page](https://github.com/Hector096/crazy-cryptos/
 
 ## Acknowledgements
 
+* Original [design](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
 * [ReactJS Organization](https://reactjs.org/) for the amazing [Documentation](https://reactjs.org/docs/getting-started.html) on React.
 * [Redux Organization](https://redux.js.org/) for the amazing [Redux Essentials Tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) on React.
 
