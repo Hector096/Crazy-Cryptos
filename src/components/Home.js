@@ -13,9 +13,7 @@ export default function Home() {
   const dispatch = useDispatch();
   const [character, setCharacter] = useState('');
   useEffect(() => {
-    if (state.data == null) {
-      dispatch(fetchCryptosData());
-    }
+    dispatch(fetchCryptosData());
   }, []);
 
   const filterData = (character) => {
