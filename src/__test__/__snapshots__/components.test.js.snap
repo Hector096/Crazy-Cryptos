@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Component test matches cryptoCard snapshot 1`] = `
+<a
+  className="col-6 text-decoration-none"
+  href="/detail/90"
+  onClick={[Function]}
+>
+  <div
+    className="border-0 m-0 card"
+  >
+    <div
+      className="img-txt p-5"
+    >
+      <svg
+        className="bg-transparent txt-icon text-light fs-5"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+          fillRule="evenodd"
+        />
+      </svg>
+      <p
+        className="fs-1 text-center bg-transparent text-light fw-bold"
+      >
+        BTC
+      </p>
+    </div>
+    <div
+      className="border-0 card-body"
+    >
+      <div
+        className="text-end text-light fw-bold card-title h5"
+      >
+        Bitcoin
+      </div>
+      <p
+        className="text-end text-light card-text"
+      >
+        $57887.75
+      </p>
+    </div>
+  </div>
+</a>
+`;
+
+exports[` Component test matches cryptoDetail snapshot 1`] = `
+Array [
+  <div
+    className="img-banner p-5"
+  >
+    <p
+      className="fs-1 text-center bg-transparent text-light fw-bold"
+    >
+      BTC
+    </p>
+    <h2
+      className="text-center bg-transparent text-light"
+    >
+      Bitcoin
+    </h2>
+    <h5
+      className="text-center bg-transparent text-light"
+    >
+      Price : $57887.75
+    </h5>
+  </div>,
+  <div
+    className="bg-color"
+  >
+    <p
+      className="bg-color text-light pt-1 pb-1 ps-3 fs-5"
+    >
+      Details
+    </p>
+  </div>,
+  <div
+    className="p-0 m-0"
+  >
+    <div
+      className="li-color d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-color text-light"
+      >
+        Rank
+      </p>
+      <p
+        className="li-color text-light"
+      >
+        1
+      </p>
+    </div>
+    <div
+      className="li-odd d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-odd text-light"
+      >
+        Change in 24h
+      </p>
+      <p
+        className="li-odd text-light"
+      >
+        -0.02%
+      </p>
+    </div>
+    <div
+      className="li-color d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-color text-light"
+      >
+        Market Cap
+      </p>
+      <p
+        className="li-color text-light"
+      >
+        $1091273206487.30
+      </p>
+    </div>
+    <div
+      className="li-odd d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-odd text-light"
+      >
+        Volume 24h
+      </p>
+      <p
+        className="li-odd text-light"
+      >
+        23852710202.372818
+      </p>
+    </div>
+    <div
+      className="li-color d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-color text-light"
+      >
+        Current Supply
+      </p>
+      <p
+        className="li-color text-light"
+      >
+        18851540.00
+      </p>
+    </div>
+    <div
+      className="li-odd d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-odd text-light"
+      >
+        Total Supply
+      </p>
+      <p
+        className="li-odd text-light"
+      >
+        18851540
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[` Component test matches header snapshot 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-light"
+>
+  <div
+    className=" pb-2 container-fluid"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <svg
+        className="fs-3 text-light"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 1024 1024"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M872 474H286.9l350.2-304c5.6-4.9 2.2-14-5.2-14h-88.5c-3.9 0-7.6 1.4-10.5 3.9L155 487.8a31.96 31.96 0 0 0 0 48.3L535.1 866c1.5 1.3 3.3 2 5.2 2h91.5c7.4 0 10.8-9.2 5.2-14L286.9 550H872c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z"
+        />
+      </svg>
+    </a>
+    <h5
+      className="text-light pt-2"
+    >
+       Crazy Cryptos
+    </h5>
+    <svg
+      className="fs-3 text-light"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 1024 1024"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M512.5 390.6c-29.9 0-57.9 11.6-79.1 32.8-21.1 21.2-32.8 49.2-32.8 79.1 0 29.9 11.7 57.9 32.8 79.1 21.2 21.1 49.2 32.8 79.1 32.8 29.9 0 57.9-11.7 79.1-32.8 21.1-21.2 32.8-49.2 32.8-79.1 0-29.9-11.7-57.9-32.8-79.1a110.96 110.96 0 0 0-79.1-32.8zm412.3 235.5l-65.4-55.9c3.1-19 4.7-38.4 4.7-57.7s-1.6-38.8-4.7-57.7l65.4-55.9a32.03 32.03 0 0 0 9.3-35.2l-.9-2.6a442.5 442.5 0 0 0-79.6-137.7l-1.8-2.1a32.12 32.12 0 0 0-35.1-9.5l-81.2 28.9c-30-24.6-63.4-44-99.6-57.5l-15.7-84.9a32.05 32.05 0 0 0-25.8-25.7l-2.7-.5c-52-9.4-106.8-9.4-158.8 0l-2.7.5a32.05 32.05 0 0 0-25.8 25.7l-15.8 85.3a353.44 353.44 0 0 0-98.9 57.3l-81.8-29.1a32 32 0 0 0-35.1 9.5l-1.8 2.1a445.93 445.93 0 0 0-79.6 137.7l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.2 56.5c-3.1 18.8-4.6 38-4.6 57 0 19.2 1.5 38.4 4.6 57l-66 56.5a32.03 32.03 0 0 0-9.3 35.2l.9 2.6c18.1 50.3 44.8 96.8 79.6 137.7l1.8 2.1a32.12 32.12 0 0 0 35.1 9.5l81.8-29.1c29.8 24.5 63 43.9 98.9 57.3l15.8 85.3a32.05 32.05 0 0 0 25.8 25.7l2.7.5a448.27 448.27 0 0 0 158.8 0l2.7-.5a32.05 32.05 0 0 0 25.8-25.7l15.7-84.9c36.2-13.6 69.6-32.9 99.6-57.5l81.2 28.9a32 32 0 0 0 35.1-9.5l1.8-2.1c34.8-41.1 61.5-87.4 79.6-137.7l.9-2.6c4.3-12.4.6-26.3-9.5-35zm-412.3 52.2c-97.1 0-175.8-78.7-175.8-175.8s78.7-175.8 175.8-175.8 175.8 78.7 175.8 175.8-78.7 175.8-175.8 175.8z"
+      />
+    </svg>
+  </div>
+</nav>
+`;
