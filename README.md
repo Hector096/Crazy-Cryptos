@@ -11,8 +11,7 @@
 Application Screenshot                                                                                   |
 :---------------------------------------------------------------------------------------------------:|
 ![screenshot](./src/assests/Screenshot.png)  
-![screenshot](./src/assests/Screenshot2.png)                                                                       |
-                                                                 |
+![screenshot](./src/assests/Screenshot2.png
 
 
 ## Built With
