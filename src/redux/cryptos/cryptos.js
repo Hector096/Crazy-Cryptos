@@ -7,7 +7,7 @@ const FILTER_CRYPTOS = 'crazy_cryptos/cryptos/filter_cryptos';
 
 const initialState = {
   loading: false,
-  data: [],
+  data: null,
   error: '',
 };
 
