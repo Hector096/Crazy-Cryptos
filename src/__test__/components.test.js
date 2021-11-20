@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import TestRenderer from 'react-test-renderer';
-import CryptoCard from '../components/CryptoCard';
-import CryptoDetail from '../components/CryptoDetail';
+import CryptoCard from '../container/CryptoCard';
+import CryptoDetail from '../container/CryptoDetail';
 import Header from '../components/Header';
 
 const data = {

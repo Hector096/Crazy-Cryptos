@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Spinner } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { fetchCryptoData } from '../redux/crypto/crypto';
-import CryptoDetail from '../components/CryptoDetail';
+import CryptoDetail from '../container/CryptoDetail';
 import '../App.css';
 
 export default function Detail({ match }) {

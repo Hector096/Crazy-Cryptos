@@ -5,7 +5,7 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCryptosData, filterCRYPTOS } from '../redux/cryptos/cryptos';
 import '../App.css';
-import CryptoCard from '../components/CryptoCard';
+import CryptoCard from '../container/CryptoCard';
 
 export default function Home() {
   const state = useSelector((state) => state.cryptos);

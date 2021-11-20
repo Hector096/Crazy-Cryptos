@@ -55,7 +55,7 @@ CryptoDetail.propTypes = {
     rank: PropTypes.number.isRequired,
     percent_change_24h: PropTypes.string.isRequired,
     market_cap_usd: PropTypes.string.isRequired,
-    volume24: PropTypes.string.isRequired,
+    volume24: PropTypes.number.isRequired,
     csupply: PropTypes.string.isRequired,
     tsupply: PropTypes.string.isRequired,
   }).isRequired,
