@@ -4,7 +4,7 @@
 
 ---
 ## Live Demo
-- [@Link](#)
+- [@Link](https://crazy-cryptos.netlify.app)
 
 ## Screenshots                                                                                 |
 ![screenshot](./src/assests/Screenshot.png)  ![screenshot2](./src/assests/Screenshot2.png)
