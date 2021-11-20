@@ -6,9 +6,7 @@
 ## Live Demo
 - [@Link](#)
 
-## Screenshots
-
-Application Screenshot                                                                                   |
+## Screenshots                                                                                 |
 ![screenshot](./src/assests/Screenshot.png)  
 ![screenshot](./src/assests/Screenshot2.png
 
