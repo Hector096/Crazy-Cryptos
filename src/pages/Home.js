@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import {
-  Row, Col, Image, Card, Spinner,
+  Row, Col, Image, Spinner,
 } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { BsArrowRightCircle } from 'react-icons/bs';
 import { fetchCryptosData, filterCRYPTOS } from '../redux/cryptos/cryptos';
-import './App.css';
+import '../App.css';
+import CryptoCard from '../components/CryptoCard';
 
 export default function Home() {
   const state = useSelector((state) => state.cryptos);
@@ -55,20 +54,7 @@ export default function Home() {
           </div>
           {state.data != null ? (
             <div className="d-flex flex-wrap border-0">
-              {state.data.map((item) => (
-                <Link to={`detail/${item.id}`} className="col-6 text-decoration-none" key={item.id}>
-                  <Card key={item.id} className="border-0 m-0">
-                    <div className="img-txt p-5">
-                      <BsArrowRightCircle className="bg-transparent txt-icon text-light fs-5" />
-                      <p className="fs-1 text-center bg-transparent text-light fw-bold">{item.symbol}</p>
-                    </div>
-                    <Card.Body className="border-0">
-                      <Card.Title className="text-end text-light fw-bold">{item.name}</Card.Title>
-                      <Card.Text className="text-end text-light">{`$${item.price_usd}`}</Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              ))}
+              {state.data.data.map((item) => <CryptoCard item={item} key={item.id} />)}
             </div>
           )
             : (<Spinner animation="grow" className="spinner" size="lg" />)}

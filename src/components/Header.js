@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Container } from 'react-bootstrap';
 import { AiFillSetting, AiOutlineArrowLeft } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
-import './App.css';
+import '../App.css';
 
 export default function Header() {
   return (

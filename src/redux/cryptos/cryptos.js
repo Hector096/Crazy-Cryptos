@@ -29,7 +29,7 @@ export const filterCRYPTOS = (payload) => ({
 });
 
 export const cryptosReducer = (state = initialState, action) => {
-  let searchString = '';
+  let search = '';
   switch (action.type) {
     case FETCH_CRYPTOS_REQUEST:
       return {
@@ -39,7 +39,7 @@ export const cryptosReducer = (state = initialState, action) => {
     case FETCH_CRYPTOS_SUCCESS:
       return {
         ...state,
-        data: action.payload.data,
+        data: action.payload,
         loading: false,
         error: '',
       };
@@ -50,10 +50,12 @@ export const cryptosReducer = (state = initialState, action) => {
         error: action.payload,
       };
     case FILTER_CRYPTOS:
-      searchString = action.payload.toLowerCase();
+      search = action.payload.toLowerCase();
       return {
         loading: false,
-        data: state.data.filter((Crypto) => Crypto.name.toLowerCase().includes(searchString)),
+        data: {
+          data: state.data.data.filter((Crypto) => Crypto.name.toLowerCase().includes(search)),
+        },
         error: '',
       };
     default:

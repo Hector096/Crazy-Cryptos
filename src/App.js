@@ -1,7 +1,7 @@
 import { Switch, Route } from 'react-router-dom';
-import Header from './Header';
-import Home from './Home';
-import Crypto from './Crypto';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Detail from './pages/Detail';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/detail/:crypto" component={Crypto} />
+        <Route exact path="/detail/:crypto" component={Detail} />
       </Switch>
     </div>
   );

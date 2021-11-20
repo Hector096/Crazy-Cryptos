@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Crypto Detail Component test matches home snapshot 1`] = `
+Array [
+  <div
+    className="img-banner p-5"
+  >
+    <p
+      className="fs-1 text-center bg-transparent text-light fw-bold"
+    >
+      BTC
+    </p>
+    <h2
+      className="text-center bg-transparent text-light"
+    >
+      Bitcoin
+    </h2>
+    <h5
+      className="text-center bg-transparent text-light"
+    >
+      Price : $57887.75
+    </h5>
+  </div>,
+  <div
+    className="bg-color"
+  >
+    <p
+      className="bg-color text-light pt-1 pb-1 ps-3 fs-5"
+    >
+      Details
+    </p>
+  </div>,
+  <div
+    className="p-0 m-0"
+  >
+    <div
+      className="li-color d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-color text-light"
+      >
+        Rank
+      </p>
+      <p
+        className="li-color text-light"
+      >
+        1
+      </p>
+    </div>
+    <div
+      className="li-odd d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-odd text-light"
+      >
+        Change in 24h
+      </p>
+      <p
+        className="li-odd text-light"
+      >
+        -0.02%
+      </p>
+    </div>
+    <div
+      className="li-color d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-color text-light"
+      >
+        Market Cap
+      </p>
+      <p
+        className="li-color text-light"
+      >
+        $1091273206487.30
+      </p>
+    </div>
+    <div
+      className="li-odd d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-odd text-light"
+      >
+        Volume 24h
+      </p>
+      <p
+        className="li-odd text-light"
+      >
+        23852710202.372818
+      </p>
+    </div>
+    <div
+      className="li-color d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-color text-light"
+      >
+        Current Supply
+      </p>
+      <p
+        className="li-color text-light"
+      >
+        18851540.00
+      </p>
+    </div>
+    <div
+      className="li-odd d-flex justify-content-between align-items-center p-3"
+    >
+      <p
+        className="li-odd text-light"
+      >
+        Total Supply
+      </p>
+      <p
+        className="li-odd text-light"
+      >
+        18851540
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Home Component test matches home snapshot 1`] = `
+<a
+  className="col-6 text-decoration-none"
+  href="/detail/90"
+  onClick={[Function]}
+>
+  <div
+    className="border-0 m-0 card"
+  >
+    <div
+      className="img-txt p-5"
+    >
+      <svg
+        className="bg-transparent txt-icon text-light fs-5"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+          fillRule="evenodd"
+        />
+      </svg>
+      <p
+        className="fs-1 text-center bg-transparent text-light fw-bold"
+      >
+        BTC
+      </p>
+    </div>
+    <div
+      className="border-0 card-body"
+    >
+      <div
+        className="text-end text-light fw-bold card-title h5"
+      >
+        Bitcoin
+      </div>
+      <p
+        className="text-end text-light card-text"
+      >
+        $57887.75
+      </p>
+    </div>
+  </div>
+</a>
+`;
