@@ -7,7 +7,7 @@
 - [@Link](#)
 
 ## Screenshots                                                                                 |
-![screenshot](./src/assests/Screenshot.png)  ![screenshot2](./src/assests/Screenshot2.png
+![screenshot](./src/assests/Screenshot.png)  ![screenshot2](./src/assests/Screenshot2.png)
 
 
 
