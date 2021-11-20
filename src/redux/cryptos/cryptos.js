@@ -3,6 +3,7 @@ import { getCryptosFromApi } from '../api';
 const FETCH_CRYPTOS_REQUEST = 'crazy_cryptos/cryptos/fetch_request';
 const FETCH_CRYPTOS_SUCCESS = 'crazy_cryptos/cryptos/fetch_success';
 const FETCH_CRYPTOS_FAILURE = 'crazy_cryptos/cryptos/fetch_failure';
+const FILTER_CRYPTOS = 'crazy_cryptos/cryptos/filter_cryptos';
 
 const initialState = {
   loading: false,
@@ -22,7 +23,13 @@ export const fetchFailure = (payload) => ({
   payload,
 });
 
+export const filterCRYPTOS = (payload) => ({
+  type: FILTER_CRYPTOS,
+  payload,
+});
+
 export const cryptosReducer = (state = initialState, action) => {
+  let searchString = '';
   switch (action.type) {
     case FETCH_CRYPTOS_REQUEST:
       return {
@@ -32,7 +39,7 @@ export const cryptosReducer = (state = initialState, action) => {
     case FETCH_CRYPTOS_SUCCESS:
       return {
         ...state,
-        data: action.payload,
+        data: action.payload.data,
         loading: false,
         error: '',
       };
@@ -41,6 +48,13 @@ export const cryptosReducer = (state = initialState, action) => {
         ...state,
         loading: false,
         error: action.payload,
+      };
+    case FILTER_CRYPTOS:
+      searchString = action.payload.toLowerCase();
+      return {
+        loading: false,
+        data: state.data.filter((Crypto) => Crypto.name.toLowerCase().includes(searchString)),
+        error: '',
       };
     default:
       return state;
